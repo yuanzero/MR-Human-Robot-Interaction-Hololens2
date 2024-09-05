@@ -2,7 +2,10 @@
 
 
 
-https://github.com/user-attachments/assets/a245e35d-a538-4267-8ce4-e3fc691adfee
+
+https://github.com/user-attachments/assets/b3f0663b-e644-4658-b5ed-11c2c7ae3db4
+
+
 
 The repository containing the code for Human-Robot Interaction utilizes Hololens 2 in conjunction with the paper titled "AR-enhanced digital twin for human–robot interaction in manufacturing systems" by Liao, Zhongyuan, and Yi Cai (2024). The project involves a series of steps for execution:
 
@@ -10,9 +13,9 @@ The repository containing the code for Human-Robot Interaction utilizes Hololens
 2. Run the project in Unity.
 3. Perform manipulation tasks using Hololens 2.
 
+![image](https://github.com/user-attachments/assets/f7615dfb-ce7a-4214-880b-41414cee0c50)
 
 
-![image](https://github.com/user-attachments/assets/3fbe1c8d-6d87-4f69-b7b3-8e07f155b05a)
 
 Within the Unity environment, various robots are available, including the elephant robot, CR5, and a robot equipped with a gripper.
 
@@ -21,22 +24,20 @@ To customize the project, users can modify the IP address in the RosConnector, s
 Several ROS system commands are essential for the successful operation of the project, including launching specific nodes and establishing communication between ROS and Unity.
 
 
-![image](https://github.com/user-attachments/assets/1066b760-a012-42b1-a558-e7b09be7a34b)
-
 In the RosConnector, you can change the IP of ROS.
-![image](https://github.com/user-attachments/assets/dcbbc92d-dd29-44b0-9c20-2e84dc59be7c)
 
-And you need to set up the joint name:
+![image](https://github.com/user-attachments/assets/307451cf-816a-4ae7-8b09-2d57ef32ad6c)
 
-![image](https://github.com/user-attachments/assets/5d5139c7-506d-446f-8847-b1e43f520bb7)
 
-and subscriber:
+And you need to set up the joint name and subscriber:
 
-![image](https://github.com/user-attachments/assets/c0d0c704-0eaa-4188-8df8-f1ebe34e0921)
+![image](https://github.com/user-attachments/assets/6535bb7f-39ea-4474-b9b4-c58fbf308d09)
+
 
 and Publisher:
 
-![image](https://github.com/user-attachments/assets/0651041e-45d5-4477-a5e2-2b4651e4999b)
+![image](https://github.com/user-attachments/assets/b3011646-3473-4736-a779-dbb9a3c449a1)
+
 
 
 Some commands in ROS system:
