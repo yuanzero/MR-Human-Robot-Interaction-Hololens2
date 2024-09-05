@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="newgripper.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0514685849083307 -0.00207592386592245 -0.0067793475761827"
+        rpy="0 0 0" />
+      <mass
+        value="0.100003709430337" />
+      <inertia
+        ixx="3.62152069629561E-05"
+        ixy="1.77150833608694E-07"
+        ixz="2.34940478960051E-06"
+        iyy="3.79775046007899E-05"
+        iyz="-5.24476040375276E-07"
+        izz="4.71095268950501E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="right1_Link">
+    <inertial>
+      <origin
+        xyz="0.0185683377771468 0.0272759095494035 0.00379994144433833"
+        rpy="0 0 0" />
+      <mass
+        value="0.00270782116655283" />
+      <inertia
+        ixx="2.42002734637629E-07"
+        ixy="-1.41091308769472E-07"
+        ixz="1.6319145661919E-13"
+        iyy="3.99488720480734E-07"
+        iyz="-3.46398733389828E-14"
+        izz="3.58217535735457E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/right1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/right1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right1_joint"
+    type="fixed">
+    <origin
+      xyz="-0.0371161825783951 0.0242812007400845 0.0265664156498648"
+      rpy="-1.5707963267949 -1.04790341801635 3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="right1_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="right2_Link">
+    <inertial>
+      <origin
+        xyz="0.0277965505902548 0.0472605150230175 0.00369956534362629"
+        rpy="0 0 0" />
+      <mass
+        value="0.00860146179590705" />
+      <inertia
+        ixx="2.03871626940763E-06"
+        ixy="4.61757801137032E-07"
+        ixz="-2.95109582949122E-09"
+        iyy="4.9837667684759E-07"
+        iyz="5.54450952077823E-09"
+        izz="2.05631868809505E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/right2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/right2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right2_joint"
+    type="fixed">
+    <origin
+      xyz="-0.129675732833354 0.024250000000001 0.0274590489837071"
+      rpy="1.5707963267949 0.639964541810117 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right2_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="left1_Link">
+    <inertial>
+      <origin
+        xyz="-0.0196773759979769 0.0270872017959258 0.00380005923123718"
+        rpy="0 0 0" />
+      <mass
+        value="0.00270782116606697" />
+      <inertia
+        ixx="2.38124071396214E-07"
+        ixy="1.38855965458472E-07"
+        ixz="-9.93879799576037E-14"
+        iyy="4.03366742544527E-07"
+        iyz="-8.54002440358066E-14"
+        izz="3.58216894487582E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/left1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/left1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left1_joint"
+    type="fixed">
+    <origin
+      xyz="-0.0650689798755126 0.0242812007400845 0.025700037528446"
+      rpy="-1.5707963267949 1.04790341801632 -3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="left1_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="left2_Link">
+    <inertial>
+      <origin
+        xyz="-0.0289871773352326 0.0469312429307748 0.00373644493411623"
+        rpy="0 0 0" />
+      <mass
+        value="0.00865910166790297" />
+      <inertia
+        ixx="2.04479045322804E-06"
+        ixy="-4.6310864683723E-07"
+        ixz="1.78990328238252E-09"
+        iyy="5.01223087846219E-07"
+        iyz="3.50879165379056E-09"
+        izz="2.06171644906757E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/left2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://newgripper.SLDASM/meshes/left2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left2_joint"
+    type="fixed">
+    <origin
+      xyz="0.0285274127442941 0.024250000000001 0.0288549103772384"
+      rpy="1.5707963267949 -0.639964541810318 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left2_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

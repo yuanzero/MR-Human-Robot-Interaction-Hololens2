@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.microsoft.azure.spatial-anchors-sdk.android": {
+      "tarball": {
+        "hash": "7800ec7916c0",
+        "mtime": 1677475550000,
+        "size": 16094190,
+        "localPath": "D:\\Rearch_Files\\dobot_backup\\MR_dobot-master\\dobot_MR_backup\\Packages\\MixedReality\\com.microsoft.azure.spatial-anchors-sdk.android-2.8.1.tgz"
+      }
+    },
+    "com.microsoft.azure.spatial-anchors-sdk.core": {
+      "tarball": {
+        "hash": "111db1ece468",
+        "mtime": 1677475550000,
+        "size": 80423,
+        "localPath": "D:\\Rearch_Files\\dobot_backup\\MR_dobot-master\\dobot_MR_backup\\Packages\\MixedReality\\com.microsoft.azure.spatial-anchors-sdk.core-2.8.1.tgz"
+      }
+    },
+    "com.microsoft.azure.spatial-anchors-sdk.windows": {
+      "tarball": {
+        "hash": "8fb72892d5a5",
+        "mtime": 1677475550000,
+        "size": 18320590,
+        "localPath": "D:\\Rearch_Files\\dobot_backup\\MR_dobot-master\\dobot_MR_backup\\Packages\\MixedReality\\com.microsoft.azure.spatial-anchors-sdk.windows-2.8.1.tgz"
+      }
+    }
+  }
+}
